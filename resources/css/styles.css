@@ -42,7 +42,6 @@
 
 /* Universal Tags*/
 * {
-    font-family: 'Open Sans', sans-serif;
     font-size: 16px;
 }
 
@@ -55,6 +54,10 @@
     font-family: 'Montserrat', sans-serif;
     font-weight: 600;
 }
+.mediumbold {
+    font-weight: 500;
+}
+
 
 /* Background Colors */
 .light_bg {
@@ -71,4 +74,46 @@
 .textcolor {
     color: rgb(94, 91, 91);
 }
+.lighttextcolor {
+    color: darkgray;
+}
 
+/* Header */
+header {
+    border: 1px solid red;
+    display: inline-flex;
+    width: 96.35%;
+    height: 64px;
+    text-align: right;
+    justify-content: space-between;
+    padding: 0 24px;
+}
+header div {
+    border: 1px solid red;
+    display: inline-flex;
+    align-items: center;
+}
+header div h1 {
+    border: 1px solid red;
+    font-family: 'Alegreya Sans SC', sans-serif;
+    font-size:2.1rem;
+    height: 2rem;
+    width: auto;
+   
+}
+header div img {
+    border: 1px solid red;
+    height: 45px;
+    width: auto;
+}
+nav {
+    border: 1px solid red;
+    display: inline-flex;
+    align-items: center;
+}
+nav li {
+    border: 1px solid red;
+    display: inline-flex;
+    font-size: 1.1rem;
+    margin: 0 16px;
+}
