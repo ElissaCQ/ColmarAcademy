@@ -45,12 +45,12 @@
     font-size: 16px;
 }
 
-.titles {
+.title {
     font-family: 'Montserrat', sans-serif;
     font-weight: 800;
 }
 
-.subtitles {
+.subtitle {
     font-family: 'Montserrat', sans-serif;
     font-weight: 600;
 }
@@ -67,12 +67,12 @@
     background-color: whitesmoke;
 }
 .dark_bg {
-    background-color: gray;
+    background-color: lightgray;
 }
 
 /* Font Colors */
 .textcolor {
-    color: rgb(94, 91, 91);
+    color: rgb(73, 72, 72);
 }
 .lighttextcolor {
     color: darkgray;
@@ -145,3 +145,68 @@ nav li {
         display: none;
     }
 }
+
+/* Section 1 */
+.section1 {
+    border: 1px solid blue;
+    display: inline-flex;
+    align-items: center;
+}
+
+.section1 img {
+    border: 1px solid blue;
+    margin: 2rem 1.5rem;
+    width: 45%;
+    height: auto;
+}
+
+.section1 div {
+    display: flex;
+    flex-direction: column;
+    align-items: center
+    border: 1px solid blue;
+    width: 450px;
+    height: auto;
+}
+
+.section1 h2 {
+    border: 1px solid blue;
+    font-size: 3rem;
+    line-height: 4.3rem;
+    margin: 15px 0;
+}
+
+.section1 h3 {
+    border: 1px solid blue;
+    font-size: 1.5rem;
+    line-height: 2.5rem;
+    margin: 15px 0;
+}
+.section1 .button {
+    border: 1px solid blue;
+    font-weight: normal;
+    color: white;
+    background-color: rgb(94, 91, 91);
+    width: auto;
+    text-align: center;
+    margin: 15px 0;
+}
+
+.section1 .button p {
+    padding: 1rem;
+    font-size: 1.1rem;
+}
+
+@media only screen and (max-width: 500px) and (min-width: 500px) {
+    .section1 {
+        border: 1px solid blue;
+        display: flex;
+        flex-direction: column;
+    }
+    .section1 img {
+        border: 1px solid blue;
+        width: 100%;
+        height: auto;
+        margin: 0;
+    }
+} 
