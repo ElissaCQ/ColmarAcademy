@@ -101,7 +101,6 @@
 /* Header */
 
 .computer_header {
-    border: 1px solid red;
     display: inline-flex;
     width: 96.35%;
     height: 64px;
@@ -110,12 +109,10 @@
     padding: 0 24px;
 }
 .computer_header div {
-    border: 1px solid red;
     display: inline-flex;
     align-items: center;
 }
 .computer_header div h1 {
-    border: 1px solid red;
     font-family: 'Alegreya Sans SC', sans-serif;
     font-size:2.1rem;
     height: 2rem;
@@ -123,17 +120,14 @@
        
 }
 .computer_header div img {
-    border: 1px solid red;
     height: 45px;
     width: auto;
 }
 nav {
-    border: 1px solid red;
     display: inline-flex;
     align-items: center;
 }
 nav li {
-    border: 1px solid red;
     display: inline-flex;
     font-size: 1.1rem;
     margin: 0 16px;
@@ -147,7 +141,6 @@ nav li {
 
 @media only screen and (max-width: 500px){
     .mobile_only_header {
-        border: 1px solid red;
         display: inline-flex;
         width: 99%;
         height: 64px;
@@ -157,7 +150,6 @@ nav li {
        
     .mobile_only_header img {
         display: inline-block;
-        border: 1px solid red;
         height: 100%;
         width: auto;
     }
@@ -168,13 +160,11 @@ nav li {
 
 /* Section 1: Banner*/
 .section1 {
-    border: 1px solid blue;
     display: inline-flex;
     align-items: center;
 }
 
 .section1 img {
-    border: 1px solid blue;
     margin: 2rem 1.5rem;
     width: 50%;
     height: auto;
@@ -183,29 +173,24 @@ nav li {
 .section1 div {
     display: flex;
     flex-direction: column;
-    border: 1px solid blue;
     width: 40%;
     height: auto;
     margin-left: 24px;
-    border: 1px solid blue;
     padding: 10px 160px 10px 0;
 }
 
 .section1 h2 {
-    border: 1px solid blue;
     font-size: 3rem;
     line-height: 4.3rem;
     margin: 15px 0;
 }
 
 .section1 h3 {
-    border: 1px solid blue;
     font-size: 1.7rem;
     line-height: 2.5rem;
     margin: 15px 0;
 }
 .section1 .button {
-    border: 1px solid blue;
     font-weight: normal;
     color: white;
     background-color: rgb(94, 91, 91);
@@ -217,16 +202,17 @@ nav li {
     padding: 1rem 0;
     font-size: 1rem;
     text-align: center;
+    position: relative;
+    left: 70px;
+    font-weight: 600;
 }
 
 @media only screen and (max-width: 500px){
     .section1 {
-        border: 1px solid blue;
         display: flex;
         flex-direction: column;
     }
     .section1 img {
-        border: 1px solid blue;
         width: 100%;
         height: auto;
         margin: 0;
@@ -234,16 +220,13 @@ nav li {
     .section1 div {
         display: flex;
         flex-direction: column;
-        border: 1px solid blue;
         width: 90%;
         height: auto;
-        border: 1px solid blue;
         padding: 24px;
         margin-left: 0;
     }
 
     .section1 .button {
-        border: 1px solid blue;
         font-weight: normal;
         color: white;
         background-color: rgb(94, 91, 91);
@@ -261,18 +244,15 @@ nav li {
 
 /* Section 2: Information*/
 .section2 {
-    border: 1px solid green;
     display: inline-flex;
 }
 
 .section2 .secondary {
     width: 55%;
-    border: 1px solid green; 
     margin-bottom: 2rem;
 }
 
 .section2 img {
-    border: 1px solid green;
     width: 91%;
     height: auto;
     margin: 2rem 1.5rem;
@@ -296,7 +276,6 @@ nav li {
 
 
 .section2 .main {
-    border: 1px solid green;
     width: 40%;
     margin-top: 22px;
     display: flex;
@@ -305,7 +284,6 @@ nav li {
 }
 
 .section2 .main .container img {
-    border: 1px solid green;
     width: 35%;
     height: auto;
     margin: 10px;
@@ -316,38 +294,32 @@ nav li {
 }
 
 .section2 .main {
-    border: 1px solid green;
     width: 45%;
     
 }
 
 .section2 .main .container {
-    border: 1px solid green;
     display: inline-flex;
     align-items: center;
     width: 100%;
 }
 
 .section2 .main .textcontainer {
-    border: 1px solid green;
     width: 65%;
     height: auto;
 }
 
 .section2 .main .textcontainer h2 {
     font-size: 1.6rem;
-    border: 1px solid green;
     margin: 0.5rem 0;
 }
 
 .section2 .main .textcontainer p {
-    border: 1px solid green;
     margin: 0.5rem 0;
     font-size: 0.9375rem;
 }
 
 .section2 .main .textcontainer a {
-    border: 1px solid green;
     margin: 0.5rem 0;
     font-size: 0.9375rem;
     text-decoration: none;
@@ -356,16 +328,11 @@ nav li {
 }
 
 @media only screen and (max-width: 500px){
-    .section2 {
-        border: 1px solid green;
-    }
-    
     .section2 .secondary {
         display: none;
     }
     
     .section2 .main {
-        border: 1px solid red;
         width: 100%;
         margin-top: 22px;
         display: flex;
@@ -386,13 +353,11 @@ nav li {
     }
     
     .section2 .main {
-        border: 1px solid green;
         width: 100%;
         margin: 0;
     }
     
     .section2 .main .container {
-        border: 1px solid green;
         display: flex;
         flex-direction: column;
         justify-content: flex-start;
@@ -400,7 +365,6 @@ nav li {
     }
     
     .section2 .main .textcontainer {
-        border: 1px solid green;
         width: 65%;
         height: auto; 
         position: relative;
@@ -411,18 +375,15 @@ nav li {
     
     .section2 .main .textcontainer h2 {
         font-size: 1.6rem;
-        border: 1px solid green;
         margin: 0.5rem 0;
     }
     
     .section2 .main .textcontainer p {
-        border: 1px solid green;
         margin: 0.5rem 0;
         font-size: 0.9375rem;
     }
     
     .section2 .main .textcontainer a {
-        border: 1px solid green;
         margin: 0.5rem 0;
         font-size: 0.9375rem;
         text-decoration: none;
@@ -433,28 +394,25 @@ nav li {
 
 /* Section 3: Courses*/
 .section3 {
-    border: 1px solid purple;
     text-align: center;
 }
 
 .section3 h2 {
-    border: 1px solid purple;
     font-size: 2.3rem;
-    margin: 2rem;
+    padding: 2rem;
 
 }
 
 .section3 .classes-container {
-    border: 1px solid purple;
-    margin: 0 3.5rem 1rem 3.5rem;
+    margin: 0 3.5rem 0 3.5rem;
     padding: 1rem;
+    padding-bottom: 1rem;
     display: flex;
     align-content: space-between;
     flex-wrap: wrap;
 }
 
 .section3 .classes-container .course-container {
-    border: 1px solid purple;
     margin:  1rem;
     margin-top: 0;
     padding-top: 0;
@@ -462,7 +420,6 @@ nav li {
 }
 
 .section3 .classes-container .course-container img {
-    border: 1px solid purple;
     height: auto; 
     width: 360px;
 }
@@ -474,33 +431,28 @@ nav li {
 }
 
 .section3 .classes-container .course-container .text-container h3{
-    border: 1px solid purple;
     margin: 1rem 0 1rem 0;
     font-size: 1.625rem;
 }
 
 .section3 .classes-container .course-container .text-container p {
-    border: 1px solid purple;
     margin: 0.5rem 0;
     font-size: 1.025rem;
 }
 
 @media only screen and (max-width: 500px) {
     .section3 {
-        border: 1px solid purple;
         text-align: center;
         background-color: whitesmoke;
     }
     
     .section3 h2 {
-        border: 1px solid purple;
         font-size: 2.3rem;
         margin: 2rem;
     
     }
     
     .section3 .classes-container {
-        border: 1px solid purple;
         margin: 0.5rem 2rem 2rem 2rem;
         display: flex;
         align-content: space-between;
@@ -509,7 +461,6 @@ nav li {
     }
     
     .section3 .classes-container .course-container {
-        border: 1px solid purple;
         margin: 0.5rem 0;
         padding: 0;
         width: 100%;
@@ -527,7 +478,6 @@ nav li {
     }
     
     .section3 .classes-container .course-container .text-container h3{
-        border: 1px solid purple;
         margin: 1rem;
         font-size: 1.625rem;
     }
@@ -539,7 +489,6 @@ nav li {
 
 /* Section 4: Thesis Exhibit */
 .section4 {
-    border: 1px solid darkgoldenrod;
     display: inline-flex;
     align-content: center;
     border: 1px solid darkgrey;
@@ -548,7 +497,6 @@ nav li {
 }
 
 h2.section4 {
-    border: 1px solid darkgoldenrod;
     display: flex;
     justify-content: center;
     padding: 2rem;
@@ -556,45 +504,35 @@ h2.section4 {
 }
 
 .section4 .main{
-    border: 1px solid darkgoldenrod;
     margin: 1.5rem;
     height: auto;
     width: 55%
 }
 
 .section4 .main video{
-    border: 1px solid darkgoldenrod;
     width: 100%;
 }
 
 .section4 .main h3{
-    border: 1px solid darkgoldenrod;
     margin-top: 1.5rem;
 }
 
 .section4 .main p{
-    border: 1px solid darkgoldenrod;
     margin-top: 1rem;
     margin-bottom: 2rem;
 }
 
 .section4 .secondary{
-    border: 1px solid darkgoldenrod;
     width: 45%;
 }
 
-.section4 .secondary .container{
-    border: 1px solid darkgoldenrod;
-}
 
 .section4 .secondary .container .individual-container{
-    border: 1px solid darkgoldenrod;
     display: inline-flex;
     padding: 0.5rem;
 }
 
 .section4 .secondary .container .individual-container img{
-    border: 1px solid darkgoldenrod;
     margin: 1rem;
     margin-right: 1px;
     width: 40%;
@@ -602,29 +540,18 @@ h2.section4 {
 }
 
 .section4 .secondary .container .individual-container .text-cont {
-    border: 1px solid darkgoldenrod;
     width: 65%;
     padding: 1rem;
     padding-top: 4.5rem;
 }
 
-.section4 .secondary .container .individual-container .text-cont h3{
-    border: 1px solid darkgoldenrod;
-}
-
-.section4 .secondary .container .individual-container .text-cont p{
-    border: 1px solid darkgoldenrod;
-}
-
 @media only screen and (max-width:500px) {
     .section4 {
-        border: 1px solid darkgoldenrod;
         display: inline-flex;
         align-content: center;
     }
     
     h2.section4 {
-        border: 1px solid darkgoldenrod;
         display: flex;
         justify-content: center;
         padding: 2rem;
@@ -632,13 +559,11 @@ h2.section4 {
     }
     
     .section4 .main{
-        border: 1px solid darkgoldenrod;
         width: 100%;
         margin: 0;
     }
     
     .section4 .main video{
-        border: 1px solid darkgoldenrod;
         width: 100%;
         margin: 0;
     }
