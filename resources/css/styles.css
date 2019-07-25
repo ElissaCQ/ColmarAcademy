@@ -73,7 +73,9 @@
 .mediumbold {
     font-weight: 500;
 }
-
+.caps {
+    text-transform: uppercase;
+}
 
 /* Background Colors */
 .light_bg {
@@ -162,7 +164,7 @@ nav li {
     }
 }
 
-/* Section 1 */
+/* Section 1: Banner*/
 .section1 {
     border: 1px solid blue;
     display: inline-flex;
@@ -255,7 +257,7 @@ nav li {
     }
 } 
 
-/* Section 2*/
+/* Section 2: Information*/
 .section2 {
     border: 1px solid green;
     display: inline-flex;
@@ -424,5 +426,111 @@ nav li {
         text-decoration: none;
         color: rgb(0, 110, 255);
         font-weight: 600;
+    }
+}
+
+/* Section 3: Courses*/
+.section3 {
+    border: 1px solid purple;
+    text-align: center;
+}
+
+.section3 h2 {
+    border: 1px solid purple;
+    font-size: 2.3rem;
+    margin: 2rem;
+
+}
+
+.section3 .classes-container {
+    border: 1px solid purple;
+    margin: 0 3.5rem 1rem 3.5rem;
+    padding: 1rem;
+    display: flex;
+    align-content: space-between;
+    flex-wrap: wrap;
+}
+
+.section3 .classes-container .course-container {
+    border: 1px solid purple;
+    margin:  1rem;
+    margin-top: 0;
+    padding-top: 0;
+    
+}
+
+.section3 .classes-container .course-container img {
+    border: 1px solid purple;
+    height: auto; 
+    width: 360px;
+}
+
+.section3 .classes-container .course-container .text-container {
+    padding: 1rem;
+    margin-bottom: 1rem;
+    text-align: left;
+}
+
+.section3 .classes-container .course-container .text-container h3{
+    border: 1px solid purple;
+    margin: 1rem 0 1rem 0;
+    font-size: 1.625rem;
+}
+
+.section3 .classes-container .course-container .text-container p {
+    border: 1px solid purple;
+    margin: 0.5rem 0;
+    font-size: 1.025rem;
+}
+
+@media only screen and (max-width: 500px) {
+    .section3 {
+        border: 1px solid purple;
+        text-align: center;
+        background-color: whitesmoke;
+    }
+    
+    .section3 h2 {
+        border: 1px solid purple;
+        font-size: 2.3rem;
+        margin: 2rem;
+    
+    }
+    
+    .section3 .classes-container {
+        border: 1px solid purple;
+        margin: 0.5rem 2rem 2rem 2rem;
+        display: flex;
+        align-content: space-between;
+        flex-wrap: wrap;
+        padding: 0;
+    }
+    
+    .section3 .classes-container .course-container {
+        border: 1px solid purple;
+        margin: 0.5rem 0;
+        padding: 0;
+        width: 100%;
+        background-color: lightgray;
+    }
+    
+    .section3 .classes-container .course-container img {
+       display: none;
+    }
+    
+    .section3 .classes-container .course-container .text-container {
+        margin-bottom: 1rem;
+        padding: 1rem;
+        text-align: left;
+    }
+    
+    .section3 .classes-container .course-container .text-container h3{
+        border: 1px solid purple;
+        margin: 1rem;
+        font-size: 1.625rem;
+    }
+    
+    .section3 .classes-container .course-container .text-container p {
+        display: none;
     }
 }
