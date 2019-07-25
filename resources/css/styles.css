@@ -542,6 +542,8 @@ nav li {
     border: 1px solid darkgoldenrod;
     display: inline-flex;
     align-content: center;
+    border: 1px solid darkgrey;
+    border-style: none none solid none;
 
 }
 
@@ -619,7 +621,6 @@ h2.section4 {
         border: 1px solid darkgoldenrod;
         display: inline-flex;
         align-content: center;
-    
     }
     
     h2.section4 {
@@ -653,4 +654,49 @@ h2.section4 {
     .section4 .secondary{
         display: none;
     }
+}
+
+/*Footer */
+footer {
+    font-size: 0.7rem;
+    text-align: left;
+    padding: 1rem 1.5rem;
+}
+
+footer nav {
+    position: relative;
+    bottom: 14px;
+    left: 93%;
+    font-size: 0.7rem;
+    text-align: right;
+}
+
+footer ul li {
+    font-size: 0.7rem;
+    margin: 0 0.5rem;
+}
+
+div.line {
+    color: whitesmoke;
+}
+
+@media only screen and (max-width: 500px) {
+    footer {
+        font-size: 0.7rem;
+        text-align: left;
+    }
+    
+    footer p {
+        padding: 1rem 0;
+    }
+    footer nav {
+        display: none;
+    }
+    div.line {
+        border: 1px solid darkgrey;
+        border-style: none none solid none;
+        color: whitesmoke;
+        padding-bottom: 1.5rem;
+    }
+    
 }
