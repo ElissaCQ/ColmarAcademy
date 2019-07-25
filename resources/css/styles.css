@@ -64,11 +64,13 @@
 .title {
     font-family: 'Montserrat', sans-serif;
     font-weight: 800;
+    font-size: 2rem;
 }
 
 .subtitle {
     font-family: 'Montserrat', sans-serif;
     font-weight: 600;
+    font-size: 1.7rem;
 }
 .mediumbold {
     font-weight: 500;
@@ -531,6 +533,124 @@ nav li {
     }
     
     .section3 .classes-container .course-container .text-container p {
+        display: none;
+    }
+}
+
+/* Section 4: Thesis Exhibit */
+.section4 {
+    border: 1px solid darkgoldenrod;
+    display: inline-flex;
+    align-content: center;
+
+}
+
+h2.section4 {
+    border: 1px solid darkgoldenrod;
+    display: flex;
+    justify-content: center;
+    padding: 2rem;
+    
+}
+
+.section4 .main{
+    border: 1px solid darkgoldenrod;
+    margin: 1.5rem;
+    height: auto;
+    width: 55%
+}
+
+.section4 .main video{
+    border: 1px solid darkgoldenrod;
+    width: 100%;
+}
+
+.section4 .main h3{
+    border: 1px solid darkgoldenrod;
+    margin-top: 1.5rem;
+}
+
+.section4 .main p{
+    border: 1px solid darkgoldenrod;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+}
+
+.section4 .secondary{
+    border: 1px solid darkgoldenrod;
+    width: 45%;
+}
+
+.section4 .secondary .container{
+    border: 1px solid darkgoldenrod;
+}
+
+.section4 .secondary .container .individual-container{
+    border: 1px solid darkgoldenrod;
+    display: inline-flex;
+    padding: 0.5rem;
+}
+
+.section4 .secondary .container .individual-container img{
+    border: 1px solid darkgoldenrod;
+    margin: 1rem;
+    margin-right: 1px;
+    width: 40%;
+    height: auto;
+}
+
+.section4 .secondary .container .individual-container .text-cont {
+    border: 1px solid darkgoldenrod;
+    width: 65%;
+    padding: 1rem;
+    padding-top: 4.5rem;
+}
+
+.section4 .secondary .container .individual-container .text-cont h3{
+    border: 1px solid darkgoldenrod;
+}
+
+.section4 .secondary .container .individual-container .text-cont p{
+    border: 1px solid darkgoldenrod;
+}
+
+@media only screen and (max-width:500px) {
+    .section4 {
+        border: 1px solid darkgoldenrod;
+        display: inline-flex;
+        align-content: center;
+    
+    }
+    
+    h2.section4 {
+        border: 1px solid darkgoldenrod;
+        display: flex;
+        justify-content: center;
+        padding: 2rem;
+        
+    }
+    
+    .section4 .main{
+        border: 1px solid darkgoldenrod;
+        width: 100%;
+        margin: 0;
+    }
+    
+    .section4 .main video{
+        border: 1px solid darkgoldenrod;
+        width: 100%;
+        margin: 0;
+    }
+    
+    .section4 .main h3{
+        display: none;
+    }
+    
+    .section4 .main p{
+        display: none;
+    }
+    
+    .section4 .secondary{
         display: none;
     }
 }
