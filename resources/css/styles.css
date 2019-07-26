@@ -65,12 +65,14 @@
     font-family: 'Montserrat', sans-serif;
     font-weight: 800;
     font-size: 2rem;
+    text-shadow: 3px 3px whitesmoke;
 }
 
 .subtitle {
     font-family: 'Montserrat', sans-serif;
     font-weight: 600;
     font-size: 1.7rem;
+    
 }
 .mediumbold {
     font-weight: 500;
@@ -81,21 +83,21 @@
 
 /* Background Colors */
 .light_bg {
-    background-color: white;
+    background-color: #E9FCF5;
 }
 .semilight_bg {
-    background-color: whitesmoke;
+    background-color: #A9F5DA;
 }
 .dark_bg {
-    background-color: lightgray;
+    background-color: #8AF2CD;
 }
 
 /* Font Colors */
 .textcolor {
-    color: rgb(73, 72, 72);
+    color: rgb(56, 55, 55);
 }
 .lighttextcolor {
-    color: darkgray;
+    color: rgb(145, 143, 143);
 }
 
 /* Header */
@@ -196,6 +198,11 @@ nav li {
     background-color: rgb(94, 91, 91);
     width: auto;
     margin: 15px 0;
+    border: 2px inset lightgrey;
+}
+
+.section1 .button:hover {
+    border: 2.5px outset darkgray;
 }
 
 .section1 .button p {
@@ -233,6 +240,11 @@ nav li {
         width: auto;
         margin: 15px 0;
         padding: 0;
+        border: 2px inset lightgrey;
+    }
+
+    .section1 .button:hover {
+        border: 2.5px outset darkgray;
     }
     
     .section1 .button p {
@@ -307,6 +319,10 @@ nav li {
     width: 100%;
 }
 
+.section2 .main .container:hover {
+    background-color: #8AF2CD;
+}
+
 .section2 .main .textcontainer {
     width: 65%;
     height: auto;
@@ -330,6 +346,11 @@ nav li {
     font-weight: 600;
 }
 
+.section2 .main .textcontainer a:hover {
+    text-decoration: underline;
+    color: rgb(6, 81, 180)
+}
+
 @media only screen and (max-width: 500px){
     .section2 .secondary {
         display: none;
@@ -346,6 +367,10 @@ nav li {
     
     .section2 .main .container img {
         display: none;
+    }
+
+    .section2 .main .container:hover {
+        background-color: #A9F5DA;
     }
     
     .section2 .main .container img.mobile-only {
@@ -366,7 +391,7 @@ nav li {
         justify-content: flex-start;
         width: 100%;
     }
-    
+
     .section2 .main .textcontainer {
         width: 65%;
         height: auto; 
@@ -393,11 +418,18 @@ nav li {
         color: rgb(0, 110, 255);
         font-weight: 600;
     }
+
+    .section2 .main .textcontainer a:hover {
+        text-decoration: underline;
+        color: rgb(6, 81, 180)
+    }
 }
 
 /* Section 3: Courses*/
 .section3 {
     text-align: center;
+    padding-bottom: 2rem;
+    
 }
 
 .section3 h2 {
@@ -446,7 +478,7 @@ nav li {
 @media only screen and (max-width: 500px) {
     .section3 {
         text-align: center;
-        background-color: whitesmoke;
+        padding-bottom: 2rem;
     }
     
     .section3 h2 {
@@ -469,10 +501,9 @@ nav li {
         margin: 0.5rem 0;
         padding: 0;
         width: 100%;
-        background-color: lightgray;
     }
-    
-    .section3 .classes-container .course-container img {
+
+     .section3 .classes-container .course-container img {
        display: none;
     }
     
@@ -496,13 +527,9 @@ nav li {
 .section4 {
     display: inline-flex;
     align-content: center;
-    border: 1px solid darkgrey;
-    border-style: none none solid none;
-
 }
 
-h2.section4 {
-    border: 1px solid 
+h2.section4 { 
     display: flex;
     justify-content: center;
     padding: 2rem;
@@ -533,9 +560,13 @@ h2.section4 {
 }
 
 
-.section4 .secondary .container .individual-container{
+.section4 .secondary .container .individual-container {
     display: inline-flex;
     padding: 0.5rem;
+}
+
+.section4 .secondary .container .individual-container:hover {
+    background-color: #8AF2CD;
 }
 
 .section4 .secondary .container .individual-container img{
@@ -563,7 +594,7 @@ h2.section4 {
         padding: 2rem;
         border: 1px solid lightgrey;
         border-style: solid none none none;
-        
+       
     }
     
     .section4 .main{
@@ -626,7 +657,7 @@ div.line {
         display: none;
     }
     div.line {
-        border: 1px solid darkgrey;
+        border: 1px solid #7EDCBB;
         border-style: none none solid none;
         color: whitesmoke;
         padding-bottom: 1.5rem;
