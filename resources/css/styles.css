@@ -202,7 +202,7 @@ nav li {
 }
 
 .section1 .button:hover {
-    border: 2.5px outset darkgray;
+    border: 2.5px outset darkgray; 
 }
 
 .section1 .button p {
